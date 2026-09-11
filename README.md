@@ -22,3 +22,8 @@ Credit is intentionally expansive but should also be accurate. Each source direc
 - people whose work appears in the source's references or historical discussion.
 
 Being listed because a work is cited is not the same thing as having directly contributed to this repository, and it should not be written as though the person endorsed this project.
+
+## Gromov: source guide and application
+
+- [Sign and Geometric Meaning of Curvature — reading guide](references/mikhail-gromov/sign-and-geometric-meaning-of-curvature.md).
+- [Suspension response geometry](references/mikhail-gromov/suspension-response-geometry.md) — original source-linked application distinguishing Jacobians, coordinate acceleration, normal bending, intrinsic curvature, and tolerance-band inverse sensitivity. Cross-linked with ASE, Econometrician in a Box, and Coxeter; not a measured truck calibration or a claim that Gromov analyzed suspensions.
