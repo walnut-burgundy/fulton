@@ -1,6 +1,6 @@
 # fulton
 
-A reading and synthesis repository around Young tableaux, Young tabloids, Specht modules, symmetric-group representation theory, symmetric functions, and the geometry that grows out of them.
+A reading and synthesis repository around William Fulton: intersection theory, Young tableaux, representation theory, symmetric functions, and the geometry that grows out of them.
 
 The work is organized in three passes:
 
@@ -10,6 +10,7 @@ The work is organized in three passes:
 
 ## Sources
 
+- William Fulton, *Intersection Theory*, 2nd ed. — [`sources/fulton-intersection-theory/`](sources/fulton-intersection-theory/)
 - Bruce E. Sagan, *The Symmetric Group: Representations, Combinatorial Algorithms, and Symmetric Functions*, 2nd ed. — [`sources/sagan-the-symmetric-group-2e/`](sources/sagan-the-symmetric-group-2e/)
 
 ## Redistribution rule
@@ -26,6 +27,10 @@ Credit is intentionally expansive but should also be accurate. Each source direc
 - people whose work appears in the source's references or historical discussion.
 
 Being listed because a work is cited is not the same thing as having directly contributed to this repository, and it should not be written as though the person endorsed this project.
+
+## Intersection theory
+
+- [Fulton ↔ Eisenbud–Harris](notes/intersection-theory-eisenbud-harris.md) — reciprocal reading map connecting *Intersection Theory* with Eisenbud's *Commutative Algebra*, *The Geometry of Schemes*, and *3264 and All That*.
 
 ## Gromov: source guide and application
 
