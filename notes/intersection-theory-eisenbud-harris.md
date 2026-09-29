@@ -1,6 +1,6 @@
 # Intersection Theory ↔ Eisenbud–Harris
 
-Companion repository: https://github.com/isomorphisms/Eisenbud-Harris
+Companion repository: https://github.com/walnut-burgundy/Eisenbud-Harris
 
 Fulton's *Intersection Theory* and the Eisenbud–Harris sequence should be read as complementary rather than redundant.
 
