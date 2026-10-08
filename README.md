@@ -11,6 +11,7 @@ The work is organized in three passes:
 ## Sources
 
 - William Fulton, *Intersection Theory*, 2nd ed. — [`sources/fulton-intersection-theory/`](sources/fulton-intersection-theory/)
+- William Fulton, *Algebraic Curves: An Introduction to Algebraic Geometry* (author's 2008 electronic edition) — [`sources/fulton-algebraic-curves/`](sources/fulton-algebraic-curves/)
 - Bruce E. Sagan, *The Symmetric Group: Representations, Combinatorial Algorithms, and Symmetric Functions*, 2nd ed. — [`sources/sagan-the-symmetric-group-2e/`](sources/sagan-the-symmetric-group-2e/)
 
 ## Redistribution rule
