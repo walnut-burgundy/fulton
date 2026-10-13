@@ -16,3 +16,8 @@ Topics to index across the repository include rational equivalence, Chow groups,
 - Local bridge note: [`../../notes/intersection-theory-eisenbud-harris.md`](../../notes/intersection-theory-eisenbud-harris.md)
 
 Do not mirror the copyrighted book text. Keep bibliographic metadata, lawful links, and original reading/synthesis notes.
+
+## CNC source notes
+
+- [Source-to-question map](cnc-source-map.md), with sections, hypotheses and access limits.
+- [Exact experiments](experiments/README.md), linked to the original worked synthesis.

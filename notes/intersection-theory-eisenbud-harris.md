@@ -23,3 +23,12 @@ Build reciprocal notes for:
 - blow-ups;
 - Riemann–Roch;
 - Macaulay2 examples exposing the ideal/module structure behind geometric calculations.
+
+## Completed CNC model slice
+
+The [source map](../sources/fulton-intersection-theory/cnc-source-map.md) and
+[worked fibers](cnc-constraint-fibers.md) connect double-point, flat-family and
+differential prerequisites to multiplicity, excess intersection, path limits
+and degeneracy schemes. The [linkage/offset note](cnc-linkage-and-offsets.md)
+adds a reduced real-rigid chain and residual double-point calculation.
+These are exact model results, not calibrated mechanics or an avoidance system.

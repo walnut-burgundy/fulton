@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "name": "fulton-cnc-01",
+  "parameters": {
+    "m2": {
+      "required": true,
+      "pattern": "/[A-Za-z0-9_./-]+"
+    },
+    "runtime-env": {
+      "required": true,
+      "pattern": "LD_LIBRARY_PATH=/[A-Za-z0-9_./-]+"
+    },
+    "arm": {
+      "required": true,
+      "pattern": "/[A-Za-z0-9_./-]+"
+    },
+    "head": {
+      "required": true,
+      "pattern": "/[A-Za-z0-9_./-]+"
+    },
+    "linkage-offset": {
+      "required": true,
+      "pattern": "/[A-Za-z0-9_./-]+"
+    },
+    "oracle": {
+      "required": true,
+      "pattern": "/[A-Za-z0-9_./-]+"
+    },
+    "capture-root": {
+      "required": true,
+      "pattern": "/[A-Za-z0-9_./-]+"
+    }
+  },
+  "required_stages": [
+    "arm",
+    "head",
+    "linkage-offset",
+    "independent-geometry"
+  ],
+  "stages": [
+    {
+      "kind": "command",
+      "name": "arm",
+      "argv": [
+        "env",
+        "{{runtime-env}}",
+        "{{m2}}",
+        "--script",
+        "{{arm}}"
+      ]
+    },
+    {
+      "kind": "command",
+      "name": "head",
+      "argv": [
+        "env",
+        "{{runtime-env}}",
+        "{{m2}}",
+        "--script",
+        "{{head}}"
+      ]
+    },
+    {
+      "kind": "command",
+      "name": "linkage-offset",
+      "argv": [
+        "env",
+        "{{runtime-env}}",
+        "{{m2}}",
+        "--script",
+        "{{linkage-offset}}"
+      ]
+    },
+    {
+      "kind": "command",
+      "name": "independent-geometry",
+      "argv": [
+        "env",
+        "{{runtime-env}}",
+        "{{m2}}",
+        "--script",
+        "{{oracle}}",
+        "{{capture-root}}",
+        "fp"
+      ]
+    }
+  ]
+}

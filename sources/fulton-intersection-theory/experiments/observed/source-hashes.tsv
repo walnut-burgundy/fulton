@@ -1,0 +1,7 @@
+repository	path	sha256
+walnut-burgundy/fulton	sources/fulton-intersection-theory/experiments/case-a-arm.m2	dda3c7c47a6a2bab60bc623d4fbe5ea11316f715f97bcc67b4e05732be2dedad
+walnut-burgundy/fulton	sources/fulton-intersection-theory/experiments/case-b-ac-head.m2	f8538af91ec5c560a5bf2ae9cbac2747280b1d48de06e5350bbd3274a16e2ed2
+walnut-burgundy/fulton	sources/fulton-intersection-theory/experiments/linkage-and-offset.m2	9c827e4700c4b81b3420319dc4155025cce9c5dd698f40e7c4e9c20038bf764c
+walnut-burgundy/fulton	sources/fulton-intersection-theory/experiments/diagram.m2	67a3052527d881009ce63a67c4681edf95d974320ec59df5771323b2abc86919
+walnut-burgundy/fulton	sources/fulton-intersection-theory/experiments/flexible-pipes.pipeline.json	fc0c988251ff9fc787c7a2518e6c29f5b260fdd9d47df763ca741d4f15107085
+isomorphisms/ai-ci	research/fulton-cnc-01/accept.m2	40c6ae936865312e231e96598e722737a639352bf9f0974622ec16e01bbb3bd9
