@@ -1,0 +1,56 @@
+{
+  "finished_at": "2026-10-13T02:59:34.323273+00:00",
+  "github_sha_declared": null,
+  "handoff_stage": "assignment",
+  "parameters": {},
+  "pipeline": "fulton-cnc-01-handoff",
+  "pipeline_path": "pipelines/fulton-cnc-01-handoff.json",
+  "pipeline_sha256": "bc908647a8a62ca83f81b9afe785168e5eb2b91241bb93a8ebcdb59eb8e20bd8",
+  "repository_commit": "def2a66fe61a2b23440f98031f1defa738a0d1ee",
+  "response_artifact": "/workspace/scratch/fd672ccf0689/runs/fulton-cnc-01-handoff-local-handoff/01-assignment/stage.json.response.txt",
+  "runner": {
+    "machine": "x86_64",
+    "python": "3.12.14",
+    "release": "6.18.44",
+    "system": "Linux"
+  },
+  "schema_version": 1,
+  "stages": [
+    {
+      "argv": [
+        "cat",
+        "/workspace/scratch/fd672ccf0689/fulton/notes/cnc-followup.txt"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "finished_at": "2026-10-13T02:59:34.247963+00:00",
+      "handoff": {
+        "audience": "human",
+        "contract_sha256": "e349b0d1d803f2478a3f6343830337c1e8753fb7ae1a0f6caa535b386b27490f",
+        "delivery_mode": "display-only",
+        "dispatch_state": "NOT_REQUESTED",
+        "events": [],
+        "execution_target": null,
+        "id": "d7caa6342a056a1400c5b80822499135bdbcb435fafe4b4e09c714a9061580f4",
+        "model": "Sun",
+        "payload_sha256": "30f618157fd90fd4a0b0d633147ac3b9815e4061df5a25eddcc54263820c099f",
+        "payload_size": 6578,
+        "request": {
+          "id": "SUN-FULTON-CNC-01",
+          "text": "Use the established Flexible Pipes execution and visible-delivery contract, with independent ai-ci acceptance. Keep staged assignment text and displayed text identical. Leave repository changes reviewable; merging requires existing authority."
+        },
+        "source_context": "FULTON-CNC-01; Fulton mathematics de7d0bf7901f8f595e3518e50a375755c5974ac6; AICI dfb14ccd651fc31545e0dc9d47463de6141a77f5; exact CNC patch 9a12f97f2e06da8c6ae004becae31a8f51a36d1a67f3601a00e4a235a5febc57",
+        "version": 1,
+        "visible_state": "PENDING"
+      },
+      "index": 1,
+      "kind": "command",
+      "name": "assignment",
+      "started_at": "2026-10-13T02:59:34.246505+00:00",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "30f618157fd90fd4a0b0d633147ac3b9815e4061df5a25eddcc54263820c099f"
+    }
+  ],
+  "started_at": "2026-10-13T02:59:34.246428+00:00",
+  "status": "AWAITING_HANDOFF_DELIVERY"
+}
