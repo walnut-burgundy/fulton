@@ -31,6 +31,8 @@ Being listed because a work is cited is not the same thing as having directly co
 ## Intersection theory
 
 - [Fulton ↔ Eisenbud–Harris](notes/intersection-theory-eisenbud-harris.md) — reciprocal reading map connecting *Intersection Theory* with Eisenbud's *Commutative Algebra*, *The Geometry of Schemes*, and *3264 and All That*.
+- [CNC constraint fibers](notes/cnc-constraint-fibers.md) — doubled arm fiber and reduced AC-head pole, with [source map](sources/fulton-intersection-theory/cnc-source-map.md) and [exact experiments](sources/fulton-intersection-theory/experiments/README.md).
+- [Litt's rods and cutter offsets](notes/cnc-linkage-and-offsets.md) — real obstructions, tolerance inequalities, and local versus global offset failures.
 
 ## Gromov: source guide and application
 

@@ -1,0 +1,102 @@
+{
+  "finished_at": "2026-10-13T02:35:48.945062+00:00",
+  "github_sha_declared": null,
+  "parameters": {
+    "arm": "/workspace/scratch/fd672ccf0689/fulton/sources/fulton-intersection-theory/experiments/case-a-arm.m2",
+    "capture-root": "/workspace/scratch/fd672ccf0689/runs/fulton-cnc-01-local-fulton-cnc-01",
+    "head": "/workspace/scratch/fd672ccf0689/fulton/sources/fulton-intersection-theory/experiments/case-b-ac-head.m2",
+    "linkage-offset": "/workspace/scratch/fd672ccf0689/fulton/sources/fulton-intersection-theory/experiments/linkage-and-offset.m2",
+    "m2": "/workspace/scratch/fd672ccf0689/m2-clean/usr/bin/M2",
+    "oracle": "/workspace/scratch/fd672ccf0689/ai-ci/research/fulton-cnc-01/accept.m2",
+    "runtime-env": "LD_LIBRARY_PATH=/workspace/scratch/fd672ccf0689/m2-runtime/usr/lib/x86_64-linux-gnu"
+  },
+  "pipeline": "fulton-cnc-01",
+  "pipeline_path": "pipelines/fulton-cnc-01.json",
+  "pipeline_sha256": "fc0c988251ff9fc787c7a2518e6c29f5b260fdd9d47df763ca741d4f15107085",
+  "repository_commit": "def2a66fe61a2b23440f98031f1defa738a0d1ee",
+  "runner": {
+    "machine": "x86_64",
+    "python": "3.12.14",
+    "release": "6.18.44",
+    "system": "Linux"
+  },
+  "schema_version": 1,
+  "stages": [
+    {
+      "argv": [
+        "env",
+        "LD_LIBRARY_PATH=/workspace/scratch/fd672ccf0689/m2-runtime/usr/lib/x86_64-linux-gnu",
+        "/workspace/scratch/fd672ccf0689/m2-clean/usr/bin/M2",
+        "--script",
+        "/workspace/scratch/fd672ccf0689/fulton/sources/fulton-intersection-theory/experiments/case-a-arm.m2"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "finished_at": "2026-10-13T02:35:46.584482+00:00",
+      "index": 1,
+      "kind": "command",
+      "name": "arm",
+      "started_at": "2026-10-13T02:35:45.794729+00:00",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "d988d85369c61cfed12f0d6837632b582ed17421336ec7a65b81a0de70baf0d6"
+    },
+    {
+      "argv": [
+        "env",
+        "LD_LIBRARY_PATH=/workspace/scratch/fd672ccf0689/m2-runtime/usr/lib/x86_64-linux-gnu",
+        "/workspace/scratch/fd672ccf0689/m2-clean/usr/bin/M2",
+        "--script",
+        "/workspace/scratch/fd672ccf0689/fulton/sources/fulton-intersection-theory/experiments/case-b-ac-head.m2"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "finished_at": "2026-10-13T02:35:47.349127+00:00",
+      "index": 2,
+      "kind": "command",
+      "name": "head",
+      "started_at": "2026-10-13T02:35:46.584561+00:00",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "7c6abb7ad6a7fcb9d690889c79bad8ba08cbeee54cbaecb75ec27cfec57d39c2"
+    },
+    {
+      "argv": [
+        "env",
+        "LD_LIBRARY_PATH=/workspace/scratch/fd672ccf0689/m2-runtime/usr/lib/x86_64-linux-gnu",
+        "/workspace/scratch/fd672ccf0689/m2-clean/usr/bin/M2",
+        "--script",
+        "/workspace/scratch/fd672ccf0689/fulton/sources/fulton-intersection-theory/experiments/linkage-and-offset.m2"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "finished_at": "2026-10-13T02:35:48.195359+00:00",
+      "index": 3,
+      "kind": "command",
+      "name": "linkage-offset",
+      "started_at": "2026-10-13T02:35:47.349238+00:00",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "72d4090a3ba76b039ac8ff30339da29a0b95e8ada069b26c1857606201338d0a"
+    },
+    {
+      "argv": [
+        "env",
+        "LD_LIBRARY_PATH=/workspace/scratch/fd672ccf0689/m2-runtime/usr/lib/x86_64-linux-gnu",
+        "/workspace/scratch/fd672ccf0689/m2-clean/usr/bin/M2",
+        "--script",
+        "/workspace/scratch/fd672ccf0689/ai-ci/research/fulton-cnc-01/accept.m2",
+        "/workspace/scratch/fd672ccf0689/runs/fulton-cnc-01-local-fulton-cnc-01",
+        "fp"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "finished_at": "2026-10-13T02:35:48.945034+00:00",
+      "index": 4,
+      "kind": "command",
+      "name": "independent-geometry",
+      "started_at": "2026-10-13T02:35:48.195435+00:00",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "047b0ed225659cf28cd0b0ce6587e1df4db13c74efc52a44d00eb1496b5a6065"
+    }
+  ],
+  "started_at": "2026-10-13T02:35:45.794627+00:00",
+  "status": "PASS"
+}

@@ -1,0 +1,1 @@
+PASS bounded independent geometric oracle; prose, hardware and platform delivery not graded

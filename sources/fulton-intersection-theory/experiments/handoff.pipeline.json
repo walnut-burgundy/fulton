@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "name": "fulton-cnc-01-handoff",
+  "required_stages": [
+    "assignment"
+  ],
+  "stages": [
+    {
+      "kind": "command",
+      "name": "assignment",
+      "argv": [
+        "cat",
+        "/workspace/scratch/fd672ccf0689/fulton/notes/cnc-followup.txt"
+      ],
+      "handoff": {
+        "audience": "human",
+        "model": "Sun",
+        "source_context": "FULTON-CNC-01; Fulton mathematics de7d0bf7901f8f595e3518e50a375755c5974ac6; AICI dfb14ccd651fc31545e0dc9d47463de6141a77f5; exact CNC patch 9a12f97f2e06da8c6ae004becae31a8f51a36d1a67f3601a00e4a235a5febc57",
+        "request": {
+          "id": "SUN-FULTON-CNC-01",
+          "text": "Use the established Flexible Pipes execution and visible-delivery contract, with independent ai-ci acceptance. Keep staged assignment text and displayed text identical. Leave repository changes reviewable; merging requires existing authority."
+        }
+      }
+    }
+  ]
+}
