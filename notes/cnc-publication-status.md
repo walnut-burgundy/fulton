@@ -13,7 +13,7 @@ Review work:
 - [walnut-burgundy/fulton PR #13, “Work Fulton intersection theory through CNC constraint fibers”](https://github.com/walnut-burgundy/fulton/pull/13).
 - [isomorphisms/ai-ci PR #256, “Independently check bounded Fulton CNC geometry and false records”](https://github.com/isomorphisms/ai-ci/pull/256).
 
-## Companion publication: BLOCKED
+## Original companion publication failure (resolved by merge follow-up)
 
 The four-file CNC bridge is locally committed at
 `22079646af1aaaff3ab0f68f43fa8968b2d48031`, tree
@@ -29,6 +29,25 @@ The [exact patch](cnc-companion-bridge.patch) is preserved here. SHA-256:
 The [complete handoff](cnc-followup.txt) assigns mechanical bridge publication
 to Moon when access works, then one offline compatibility diagnostic to Earth.
 The missing publication does not invalidate the independently executed mathematics.
+
+The subsequent authorized continuation published the exact bridge tree in
+[the-twin-pines/singularity-free-Gcode PR #2, “Add offline AC-head pole continuation diagnostic”](https://github.com/the-twin-pines/singularity-free-Gcode/pull/2).
+The repository identity resolves behind the former isomorphisms address. Its
+bridge tree is exactly `0d27dfac10b49b7eebfb36828805d6a900d2eae0`.
+Authenticated repository operations work; the original terminal push failure
+was not evidence that Git or publication was unavailable.
+
+The merge follow-up also recovered compiled Grease from a current artifact
+with source pin `5651cf97a1b5042f24f14112a7ade9a1518eb0bc` and executable
+SHA-256 `7e31cd05b7a9d8fb2a4a9e003a7f3fcb0159138506d17f0fb28da8cbe22aa85c`.
+It runs without Python 2. FP's previously referenced seven-day artifact had
+expired; the replacement contains the identical executable. The old failed
+retrieval remains historical failure evidence, not a shell-language failure.
+
+The bounded diagnostic and independent acceptance are now exercised together
+through the FP-owned Grease stage. The acceptance repair rejects cross-case
+field borrowing, wrong equations, duplicate identities and forged process-exit
+claims. The original mathematical and physical evidence limits remain intact.
 
 ## Contribution decisions
 
