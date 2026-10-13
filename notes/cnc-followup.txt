@@ -1,0 +1,67 @@
+Decision and evidence
+- Arm: demonstrated nonreduced length-2 fiber at target distances 1 and 3, with a second-order obstructed tangent. Fulton Proposition 7.1 applies because the circles meet properly in a smooth plane.
+- AC head: demonstrated reduced one-dimensional pole freedom, two-point nearby fibers, excess intersection and path-dependent limiting C settings. Orthogonal meridians have disjoint limits.
+- Litt: recovered the original thread. Extended planar chains can be real-rigid while their complex local schemes are reduced. No separate example with obstruction first appearing above second order was established.
+- Offsets: demonstrated a regular self-intersection with nonzero local differential, and a residual construction separating distinct-parameter crossings from diagonal ramification.
+- Fulton formalizes multiplicity, excess, limits and residual schemes. No advantage over competent analytic IK/continuation, clearance bound or real machine behavior has been established.
+- Source map: Fulton §§4.2, 5.1–5.2, 6.3, 7.1, 9.2, 10.2, 11.1 and 14.4; exact pages and hypotheses are in sources/fulton-intersection-theory/cnc-source-map.md.
+- Verified published mathematics: walnut-burgundy/fulton@de7d0bf7901f8f595e3518e50a375755c5974ac6.
+- Independent acceptance: isomorphisms/ai-ci@dfb14ccd651fc31545e0dc9d47463de6141a77f5; actual M2 producer output passes, all 17 false records are rejected. The existing delivery suite passes 41 cases.
+- CNC bridge: committed locally at 22079646af1aaaff3ab0f68f43fa8968b2d48031; remote publication remains blocked. Git push lacked authentication; repository write endpoints returned malformed results. No remote research ref was observed. The exact four-file patch is preserved in Fulton.
+- Remaining gaps: measured head geometry/tool length, controller/clearance evidence and the exact Walker/Ghrist historical attribution. Platform-visible delivery attestation is NOT_VERIFIED because FP has no trusted ChatGPT sink.
+
+Recommended allocation
+- Sun: done for this research.
+- Earth: one offline limiting-setting compatibility diagnostic, after verified bridge publication.
+- Moon: conditional publication of the settled CNC documentation patch.
+
+Earth follow-up job
+
+EARTH FULTON-CNC-02 — Implement an offline pole continuation diagnostic
+Model: Earth
+Repository: isomorphisms/singularity-free-Gcode
+Acceptance owner: isomorphisms/ai-ci
+
+Prerequisite
+Complete MOON FULTON-CNC-BRIDGE below. Record its verified remote CNC head and read that exact bridge. Read shared/local instructions and active branches before editing. Use Fulton@de7d0bf7901f8f595e3518e50a375755c5974ac6 and ai-ci@dfb14ccd651fc31545e0dc9d47463de6141a77f5 as the authoritative research inputs; refresh later work without silently changing this decision.
+
+One outcome
+For the idealized right-handed Rz(C)Rx(A) head, implement an offline exact test of whether two meridian approaches to the lower pole share a limiting C setting. Pose means tip plus oriented tool direction; A is signed and unrestricted near zero, C is modulo 2π, translations are unrestricted and pivots coincide.
+
+Inputs
+One TSV record per case: case_id, incoming_x, incoming_y, outgoing_x, outgoing_y, pose_kind. Components are exact rational numbers; each horizontal vector must be nonzero. Admit only the declared tip-plus-direction pose and two-meridian path class. Reject malformed records, zero vectors and unsupported pose semantics explicitly.
+
+Settled mathematics
+For a horizontal meridian vector v, its limiting ideal is
+  sinC² + cosC² − 1,
+  incoming_x × cosC + incoming_y × sinC
+with the corresponding outgoing equation for the other meridian.
+Two nonzero real rational vectors share limits exactly when
+  incoming_x × outgoing_y − incoming_y × outgoing_x = 0.
+This follows by intersecting their lines with the unit circle: independent lines force both circle coordinates to zero; dependent lines give the same two-point limiting set.
+
+Return
+Original limiting ideals, their intersection scheme, reduced pole freedom (dimension 1), and LIMIT_SETS_INTERSECT or LIMIT_SETS_DISJOINT. Tag the model assumptions. These statuses concern limiting settings only and cannot be labeled safe or collision-free.
+
+Boundaries
+Macaulay2 owns exact algebra; Grease owns any authored orchestration. Resolve their real entrypoints. Preserve Adriç objects, scoped realization constraints and provenance. Emit no G-code, dwell plan or controller commands. Keep full SO(3), table kinematics, finite joint limits, compliance and motion scheduling outside this slice. No compiled helper is needed; later C work must follow ICK-or-NDK policy.
+
+Acceptance
+Run the real diagnostic through FP and independent ai-ci acceptance. Cover Y/Y, Y/−Y, Y/X, (3,4)/(6,8), and (3,4)/(−4,3), plus exact rational rescalings, invalid zero vectors and unsupported full-frame input. Compare the output ideals with the determinant criterion. Reject a mutant that treats the full pole circle as every path's limit; add a targeted failing control for each required diagnostic. Preserve exact input/output hashes and argv, rerun the train-track check, and display the complete staged handoff unchanged.
+
+Stop if evidence contradicts the model or requires new semantics. Leave a review branch/PR; do not merge or release.
+
+Moon follow-up job(s)
+
+MOON FULTON-CNC-BRIDGE — Publish the exact reciprocal documentation
+Model: Moon
+Target: isomorphisms/singularity-free-Gcode
+
+Run only when authenticated target reads and writes work. Refresh actual branches and PRs; reuse matching work. Acquire notes/cnc-companion-bridge.patch from the current exact head of walnut-burgundy/fulton PR #13, “Work Fulton intersection theory through CNC constraint fibers”, and record that source head.
+
+Required patch SHA-256:
+9a12f97f2e06da8c6ae004becae31a8f51a36d1a67f3601a00e4a235a5febc57
+
+Require target baseline 24659b853ad922d83cb7869812ffcd61e005e262 and check that the patch applies cleanly. It changes exactly README.md, docs/fulton-constraint-fibers.md, docs/five-axis-schemes-and-compliance.md and docs/linkage-topology-and-schemes.md. Apply these bytes without new mathematics or implementation. Expected resulting tree: 0d27dfac10b49b7eebfb36828805d6a900d2eae0.
+
+Run the existing train-track check, publish a review branch, then independently read its remote head and all four resulting file blobs. A success response alone is insufficient. Record that exact verified head for Earth. Stop on target drift, contradictory contents or unavailable access. Do not merge, alter permissions or delete branches.
